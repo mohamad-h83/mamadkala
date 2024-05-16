@@ -1,0 +1,100 @@
+.amazing {
+  width: 100%;
+  height: 300px;
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  .amazing-center {
+    width: 98%;
+    height: inherit;
+    background-color: #ef3a4f;
+    border-radius: 20px;
+    padding: 10px 10px 10px 2px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      height: 260px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        font-weight: bold;
+      }
+      .swiper-slide-first-product {
+        a {
+          text-decoration: none;
+          span {
+            font-family: var(--font-family);
+            font-size: 18px;
+            font-weight: lighter;
+            color: #ffffff;
+          }
+        }
+      }
+      .swiper-slide-1,.swiper-slide-2,.swiper-slide-3,
+      .swiper-slide-4,.swiper-slide-5,.swiper-slide-6,
+      .swiper-slide-7,.swiper-slide-8{
+        img {
+          width: 120px !important;
+          height: 160px !important;
+          padding-bottom: 15px;
+          margin-right: 30px;
+        }
+        a {
+          text-decoration: none;
+          .percent {
+            border-radius: 10px;
+            color: #ffffff;
+            background-color: #d32f2f;
+            font-family: var(--fontfamilyhoma);
+            font-size: 12px;
+            padding-left: 5px;
+            padding-right: 5px;
+          }
+          span {
+            row-gap: 10px;
+            font-family: var(--font-family);
+            color: black;
+            font-weight: bold;
+            padding-right: 20px;
+          }
+        }
+        .line {
+          text-decoration: line-through;
+            color: lightgray;
+            margin-right: 60px;
+            font-size: 13px;
+        }
+
+      }
+    }
+
+    .swiper-slide-first-product {
+      width: 100%;
+      height: 100%;
+      background-color: #ef3a4f;
+      img {
+        width: 130px;
+        height: 130px;
+        margin: 1px auto;
+      }
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

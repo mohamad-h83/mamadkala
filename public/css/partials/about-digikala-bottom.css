@@ -1,0 +1,112 @@
+.ad-bottom-full {
+  width: 100%;
+  height: 475px;
+  .ad-bottom-top {
+    width: 98%;
+    height: 225px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    column-gap: 50px;
+    .text {
+      padding-top: 30px;
+      padding-right: 20px;
+      width: 905px;
+      height: inherit;
+      font-family: var(--fontfamily);
+      font-weight: lighter;
+      color: #62666d;
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        padding-top: 15px;
+        font-size: 13px;
+        line-height: 25px;
+      }
+      a {
+        text-decoration: none;
+        span {
+          font-family: var(--fontfamily);
+          font-weight: lighter;
+          font-size: 13px;
+          color: #19bfd3;
+        }
+      }
+    }
+    .logo {
+      width: 350px;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10px;
+      padding-bottom: 50px;
+      div {
+        width: 110px;
+        height: 110px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+    }
+  }
+  .ad-bottom-center {
+    width: inherit;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-family: var(--fontfamily);
+      font-weight: lighter;
+      font-size: 11px;
+      color: #81858b;
+    }
+  }
+  .ad-bottom-bottom-top,
+  .ad-bottom-bottom-bottom {
+    width: 100%;
+    height: 85px;
+    background-color: #f0f0f1;
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+      div {
+        height: 100%;
+        border-left: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .ad-bottom-bottom-top {
+    a {
+      div {
+        width: 168.6px;
+        .digiclub {
+          width: 81px;
+        }
+        .digistyle {
+          width: 130px;
+        }
+      }
+    }
+  }
+  .ad-bottom-bottom-bottom {
+    a {
+      div {
+        width: 192.7px;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.application-full {
+  width: 100%;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .application-center {
+    width: 97%;
+    height: 80px;
+    border-radius: 7px;
+    background-color: #3c4b6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 440px;
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 15px;
+      img {
+        width: 44px;
+        height: 44px;
+      }
+      span {
+        font-family: var(--fontfamily);
+        font-size: 22px;
+        font-weight: lighter;
+        color: #ffffff;
+      }
+    }
+    .receive {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 15px;
+      img {
+        border-radius: 7px;
+        height: 44px;
+      }
+      .more {
+        width: 44px;
+        height: 44px;
+        background-color: #ffffff;
+      }
+    }
+  }
+}

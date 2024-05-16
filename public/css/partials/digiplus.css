@@ -1,0 +1,95 @@
+.digiplus-full{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .digiplus-90{
+        width: 98%;
+        height: 385px;
+        border-radius: 20px;
+        background-color: #941B80;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        div{
+            
+            p{
+                font-family: var(--fontfamily);
+                font-size: 14px;
+                font-weight: lighter;
+                color: #ffffff;
+                margin-bottom: 10px;
+                
+            }
+            .box-a{
+                text-decoration: none !important;
+                padding-left: 400px;
+                .box{
+                    width: 105px;
+                    height: 40px;
+                    border: 2px solid #ffffff;
+                    border-radius: 10px;
+                    font-family: var(--fontfamily);
+                    font-size: 14px;
+                    font-weight: lighter;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #ffffff;
+                    margin-bottom: 200px;
+                    
+                    
+                    
+                }
+            }
+            
+        }
+
+        
+
+        .digiplus-center{
+            width: 870px;
+            height: 355px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            margin-left: 15px;
+            .center-top{
+                width: inherit;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: var(--fontfamily);
+                font-size: 15px;
+                font-weight: bold;
+                color: black;
+                a{
+                    text-decoration: none;
+                    color:#882778;
+                    font-family: var(--fontfamily);
+                    font-size: 14px;
+                    font-weight: lighter;
+                    padding-right: 620px;
+                }
+            }
+            .center-center{
+                width: inherit;
+                height: 158px;
+                img{
+                    width:140px ;
+                    height: 140px;
+                }
+            }
+            .center-bottom{
+                width: inherit;
+                height: 158px;
+                img{
+                    width:140px ;
+                    height: 140px;
+                }
+            }
+
+        }
+    }
+}

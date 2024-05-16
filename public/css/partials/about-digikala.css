@@ -1,0 +1,126 @@
+.about-digikala-full {
+  width: 100%;
+  height: 560px;
+  border-top: 1px solid lightgray;
+  .about-digikala-full-top {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1050px;
+    padding-top: 30px;
+    .back-to-top {
+      a {
+        text-decoration: none;
+        font-family: var(--fontfamily);
+        font-size: 12px;
+        font-weight: lighter;
+        color: #6e6772;
+        .a {
+          width: 140px;
+          height: 40px;
+          border: 1px solid lightgray;
+          border-radius: 7px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+  .phone {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    div {
+      font-family: var(--fontfamily);
+      font-size: 12px;
+      font-weight: lighter;
+      color: #534d55;
+      padding-right: 20px;
+    }
+  }
+  .about-digikala-full-center {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 130px;
+    div {
+      padding-right: 25px;
+      a {
+        text-decoration: none;
+        span {
+          font-family: var(--fontfamily);
+          font-size: 11px;
+          font-weight: lighter;
+          color: #534d55;
+        }
+      }
+    }
+  }
+  .about-digikala-full-bottom {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding-top: 30px;
+    column-gap: 160px;
+    padding-right: 20px;
+    line-height: 35px;
+    .bold {
+      font-family: var(--fontfamily);
+      font-size: 17px;
+      font-weight: lighter;
+      color: #2b2b2b;
+    }
+    a {
+      text-decoration: none;
+      span {
+        font-family: var(--fontfamily);
+        font-size: 14px;
+        font-weight: lighter;
+        color: #6e6772;
+      }
+    }
+    h1 {
+      font-family: var(--fontfamily);
+      font-size: 17px;
+      font-weight: lighter;
+      color: #2b2b2b;
+    }
+    .email {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: var(--fontfamily);
+      font-size: 15px;
+      font-weight: lighter;
+      column-gap: 10px;
+      padding-top: 15px;
+      .your-email {
+        width: 260px;
+        height: 50px;
+        border-radius: 7px;
+        color: #6e6772;
+        background-color: #f0f0f1;
+        display: flex;
+        align-items: center;
+        padding-right: 20px; 
+        opacity: 0.8;
+      }
+      .registration {
+        width: 60px;
+        height: 50px;
+        border-radius: 7px;
+        color: #fffdfb;
+        background-color: #e0e0e2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

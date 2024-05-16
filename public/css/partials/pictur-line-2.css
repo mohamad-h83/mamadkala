@@ -1,0 +1,15 @@
+.picher-line-2{
+    width: 100%;
+    height: 260px;
+    a{
+        width: inherit;
+        height: 96%;
+        img{
+            width: 650px;
+            height: 240px;
+            border-radius: 15px;
+            margin-right: 15px;
+        }
+
+    }
+}
